@@ -1,0 +1,6 @@
+
+.home-wrapper {
+  background-image: url(../Assets/background.svg);
+  background-size: cover;
+  padding: 10px;
+}

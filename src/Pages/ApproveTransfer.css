@@ -1,0 +1,192 @@
+/* ApproveTransfer.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-details {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 28px;
+  justify-content: center;
+  position: relative;
+}
+
+.user-details .text-wrapper {
+  color: #272727;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.user-details img {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.user-details p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* .back-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add new styles for image container */
+.image-container {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+.user-details .label {
+  height: 49px;
+  width: 134px;
+}
+
+.user-details .amount-wrapper {
+  color: #272727;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0;
+}
+
+.payment-card {
+  background-color: #202020;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 18px;
+  height: 131px;
+  overflow: hidden;
+  width: 358px;
+}
+
+.payment-card .overlap-group {
+  background-size: 100% 100%;
+  height: 131px;
+  position: relative;
+}
+
+.payment-card .design-vector {
+  height: 160px;
+  left: 76px;
+  position: absolute;
+  top: 0;
+  width: 268px;
+}
+.payment-card .message {
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+}
+
+.payment-card .account-balance {
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 76px;
+}
+
+.payment-card .account-type {
+  color: #909090;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 55px;
+}
+
+.payment-card .change-button {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 46px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 275px;
+  padding: 10px;
+  position: absolute;
+  top: 48px;
+}
+
+.payment-card .button-text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  color: #272727;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.back-button {
+  background-color: green; /* Default green color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: slideToGrey 3s linear 2s forwards; /* Animation to slide to grey after 2 seconds */
+}
+
+@keyframes slideToGrey {
+  0% {
+    background-color: green; /* Starting color */
+    background-size: 200% 100%;
+    background-position: left bottom;
+  }
+  100% {
+    background-color: grey; /* Final color */
+    background-position: right bottom;
+  }
+}
+
+.back-button:hover {
+  background-color: red; /* Change color on hover */
+}

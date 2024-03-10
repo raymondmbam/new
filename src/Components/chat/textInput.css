@@ -1,0 +1,30 @@
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    border: 0.4px solid #C2C2C2;
+    align-items: center;
+    width: 100%
+  }
+  
+  .text {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 6px;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .send-icon{
+    padding: 6px;
+
+  }
+  

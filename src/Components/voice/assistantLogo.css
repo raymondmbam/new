@@ -1,0 +1,15 @@
+.aslw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.assistant-frame {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 50px;
+  background-color: #e8f3ff;
+  font-family: 'DM Sans', sans-serif;
+}

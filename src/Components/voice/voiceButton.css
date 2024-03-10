@@ -1,0 +1,58 @@
+.keyboard-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 15px; /* Removed unnecessary space at the end */
+  gap: 10px;
+
+  position: absolute;
+  width: 820px; /* Set width to match the fixed width of your app */
+  height: 47px;
+  left: calc(50% - 410px); /* Center horizontally */
+  bottom: 20px; /* Adjust position from top to bottom */
+}
+
+.keyboard-frame keyboard {
+  height: 47px;
+  position: relative;
+  width: 47px;
+}
+
+.keyboard-frame .mic-icon {
+  position: absolute;
+  left: 85.38%;
+  right: 5.9%;
+  top: 83.53%;
+  bottom: 13.63%;
+}
+
+/* textButton CSs -- Mic */
+.mic-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 15px; /* Removed unnecessary space at the end */
+  gap: 10px;
+
+  position: absolute;
+  width: 820px; /* Set width to match the fixed width of your app */
+  height: 47px;
+  left: calc(50% - 410px); /* Center horizontally */
+  bottom: 20px; /* Adjust position from top to bottom */
+}
+
+.mic-frame mic {
+  height: 47px;
+  position: relative;
+  width: 47px;
+}
+
+.mic-frame .microphone-bold {
+  position: absolute;
+  left: 85.38%;
+  right: 5.9%;
+  top: 83.53%;
+  bottom: 13.63%;
+}

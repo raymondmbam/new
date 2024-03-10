@@ -1,0 +1,101 @@
+.box {
+  height: 197px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.box .group {
+  height: 197px;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
+.box .overlap-group {
+  background-color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 0px 0px 38.3px #0000000d;
+  height: 197px;
+  position: relative;
+  width: 100%;
+}
+
+.box .text-wrapper {
+  color: #2a2a2a;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+}
+
+.box .frame {
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  position: relative;
+  padding: 63px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.box .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 9px;
+  justify-content: center;
+  position: relative;
+}
+
+.box .img {
+  height: 70px;
+  object-fit: cover;
+  position: relative;
+  width: 70px;
+}
+
+.box .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+
+.box .text-wrapper-2 {
+  color: #2a2a2a;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.box .text-wrapper-3 {
+  color: #909090;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

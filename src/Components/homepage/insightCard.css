@@ -1,0 +1,258 @@
+/* .insight {
+  background-color: #101010;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 5px;
+  overflow: hidden;
+}
+
+.insight .overlap-group-wrapper {
+  background-color: #101010;
+  height: 245px;
+  overflow: hidden;
+  width: 358px;
+}
+
+.insight .overlap-group {
+  height: 276px;
+  left: -110px;
+  position: relative;
+  top: -51px;
+  width: 450px;
+}
+
+.insight .ellipse {
+  background: linear-gradient(
+    180deg,
+    rgba(211, 151, 102, 0.5) 45%,
+    rgba(247, 158, 27, 0.5) 100%
+  );
+  border-radius: 80.99px/81.85px;
+  filter: blur(48.9px);
+  height: 164px;
+  left: 30px;
+  position: absolute;
+  top: 54px;
+  transform: rotate(30.09deg);
+  width: 162px;
+}
+
+.insight .div {
+  background-color: #2eb67d80;
+  border-radius: 68.73px/69.47px;
+  filter: blur(48.9px);
+  height: 139px;
+  left: 127px;
+  position: absolute;
+  top: 25px;
+  transform: rotate(30.09deg);
+  width: 137px;
+}
+
+.insight .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 128px;
+  position: absolute;
+  top: 68px;
+}
+
+.insight .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 150px;
+  justify-content: center;
+  position: relative;
+}
+
+.insight .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 7px;
+  position: relative;
+}
+
+.insight .insight-icon {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.insight .text-wrapper {
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.insight .frame-4 {
+  align-items: center;
+  border: 0.5px solid;
+  border-color: #ffffff;
+  border-radius: 46px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  justify-content: center;
+  padding: 6px 9px;
+  position: relative;
+}
+
+.insight .text-wrapper-2 {
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.5px;
+  position: relative;
+  width: fit-content;
+}
+
+.insight .caretup-icon {
+  height: 10px;
+  position: relative;
+  width: 10px;
+}
+
+.insight .frame-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+}
+
+.insight .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.insight .text-wrapper-3 {
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.insight .guidance-up-arrow {
+  height: 20.61px;
+  position: relative;
+  width: 20.61px;
+}
+
+.insight .increase-in-your {
+  color: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  width: 322px;
+}
+
+.insight .span {
+  color: #ffffff;
+}
+
+.insight .text-wrapper-4 {
+  color: #a5a5a5;
+}
+
+.insight .p {
+  color: #a5a5a5;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  width: 322px;
+} */
+
+.insights {
+  /* background-color: black; */
+  color: white;
+  border-radius: 10px;
+  padding: 25px 20px;
+  background-image: linear-gradient(
+    to top left,
+    black,
+    black,
+    black,
+    black,
+    green,
+    gold
+  );
+}
+.insights-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.insi-icon {
+  display: flex;
+  align-items: center;
+}
+.insi-icon p {
+  margin: 0px 5px;
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+
+.insights-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.insitext {
+  margin-top: 10px;
+}
+.val-insi {
+  display: flex;
+  align-items: flex-start;
+}
+
+.val-insi p {
+  font-size: 6vw;
+  font-weight: 600;
+}
+
+.text-insi1 {
+  font-size: 4vw;
+}
+.lg-text {
+  color: #a5a5a5;
+  margin: 20px 0px;
+}
+
+.lg-text .wite {
+  color: white;
+}

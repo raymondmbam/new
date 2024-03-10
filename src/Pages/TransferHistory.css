@@ -1,0 +1,101 @@
+.transfer-history {
+  position: relative;
+  width: 100%;
+  background: #fcfcfc;
+  backdrop-filter: blur(31.35px);
+  justify-content: center;
+  align-items: center;
+}
+
+.transfer-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 7px;
+
+  position: absolute;
+  width: 222px;
+  height: 54px;
+  left: 16px;
+  top: 137px;
+}
+
+.transfer-page-header {
+  width: 104px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  color: #625d5d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.amount-time-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 222px;
+  height: 17px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.total-transfer-wrapper {
+  width: 64px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #919191;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.seperator {
+  width: 4px;
+  height: 4px;
+  background: #d9d9d9;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.total-transfer {
+  width: 66px;
+  height: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #919191;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.time-period {
+  width: 132px;
+  height: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1c1c1c;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}

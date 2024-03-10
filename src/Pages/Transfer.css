@@ -1,0 +1,47 @@
+.transfer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.transfer .div {
+  background-color: #ffffff;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  position: relative;
+}
+.transfer .text-wrapper {
+  color: #272727;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.transfer .element {
+  color: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.transfer .span {
+  color: #272727;
+}
+
+.transfer .text-wrapper-2 {
+  color: #626262;
+}

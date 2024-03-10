@@ -1,0 +1,55 @@
+.Quick {
+  border-radius: 20px 50px 0px 0px;
+  background-color: #f8f8f8e0;
+  padding: 20px;
+  margin-top: 20px;
+}
+.hding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-ss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.btn-ss button {
+  background-color: #0075ff;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.finel {
+  border: 1px solid #615d63;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.finel input {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.finel button {
+  padding: 10px;
+  background-color: #0075ff;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}

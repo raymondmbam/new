@@ -1,0 +1,82 @@
+/* Tabs.css */
+
+.tabs-container {
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  white-space: nowrap; /* Prevent tabs from wrapping */
+  position: relative; /* Ensure positioning context for the indicator */
+}
+
+.search-container {
+  align-items: center;
+  border: 1px solid;
+  border-color: #ebebeb;
+  border-radius: 16.2px;
+  display: flex;
+  gap: 16.2px;
+  height: 48px;
+  padding: 0px 16.2px; /* Adjust padding */
+  position: relative;
+  width: 100%; /* Take full width */
+}
+
+.search-input {
+  border: none;
+  flex: 1;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  outline: none;
+}
+
+.tab {
+  display: inline-block; /* Display tabs in a row */
+  padding: 10px; /* Adjust padding as needed */
+  position: relative; /* Position context for the indicator */
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer; /* Add cursor pointer for interaction */
+}
+
+.tab-name {
+  text-align: center;
+}
+
+.tab-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+}
+
+/* Greedy underline for the entire tab */
+.tab::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Height of the selection indicator */
+  background-color: transparent; /* Color of the selection indicator */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.tab.selected::after {
+  opacity: 1; /* Show the selection indicator when tab is selected */
+  background-color: black; /* Color of the selection indicator */
+}
+
+/* Black line to indicate the selected tab */
+.selected-line {
+  position: absolute;
+  bottom: 0; /* Adjust the position of the line as needed */
+  left: 0;
+  width: 100%;
+  height: 3px; /* Adjust the thickness of the line as needed */
+  background-color: black; /* Color of the line */
+  display: none; /* Initially hide the black line */
+}
+
+.tab.selected .selected-line {
+  display: block; /* Display the black line when tab is selected */
+}

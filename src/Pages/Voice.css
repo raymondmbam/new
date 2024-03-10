@@ -1,0 +1,14 @@
+.voice {
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.resp-input {
+  border: 1px solid black;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 10px;
+  gap: 10px;
+}

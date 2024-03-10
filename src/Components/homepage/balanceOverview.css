@@ -1,0 +1,59 @@
+.balance-overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: DM Sans;
+  background-image: url(/src/Assets/background.svg);
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+.save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.save p {
+  color: #919191;
+}
+
+.elipse {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: #d9d9d9;
+  margin: 0 3px;
+}
+.bal-disp {
+  margin: 10px;
+}
+.bal {
+  font-size: 10vw;
+  font-weight: bolder;
+  color: #454545;
+}
+
+.to-p {
+  font-size: 6vw;
+  font-weight: bold;
+  color: #aaaaaaaa;
+}
+.btn-A {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  font-size: 12px;
+  color: #645f5f;
+  font-weight: 500;
+  font-family: DM Sans;
+}
+
+.btn-A img {
+  margin: 0 3px;
+}

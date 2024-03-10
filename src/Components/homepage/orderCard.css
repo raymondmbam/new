@@ -1,0 +1,36 @@
+.order-card {
+  border: 1px solide black;
+  position: relative;
+  background-color: #0075ff;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+.text-wrapa {
+  color: white;
+}
+.big-txt {
+  font-size: 6vw;
+  font-weight: Bold;
+  font-family: DM Sans;
+  margin: 10px 0px;
+}
+.small-txt {
+  font-size: 3vw;
+}
+
+.img-s img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.order-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 25px;
+  color: #0075ff;
+  font-weight: 500;
+  border: none;
+}

@@ -1,0 +1,22 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px;
+  gap: 10px;
+  background-color: none; /* or transparent, if you want */
+  border: none;
+  width: 100%;
+}
+
+.input-field {
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  background-color: transparent; /* set background to transparent */
+  font-style: normal;
+  font-size: 3vw;
+  font-weight: 600;
+  width: 100%;
+  width: 388px;
+  height: 41px;
+  color: inherit; /* or any other color you prefer */
+}

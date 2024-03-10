@@ -1,0 +1,168 @@
+.daily-transfer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+  gap: 10px;
+  position: relative;
+  top: 237px;
+  margin-bottom: 20px;
+  width: 100 %; /* Fill the screen from left to right */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.transfer-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%; /* Make sure it stretches horizontally */
+  justify-content: space-between; /* Fill the space between elements */
+}
+
+.date-wrapper {
+  width: 122px;
+  height: 21px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1c1c1c;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.total-amount-wrapper {
+  width: 75px;
+  height: 21px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1c1c1c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.transfer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 16px;
+  gap: 14px;
+  width: 100%; /* Set width to 100% */
+  background: #ffffff;
+  border-radius: 9px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.individual-transfer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 14px;
+  width: 100%;
+  height: 65px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.transfer-amount {
+  width: 61px;
+  height: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #1c1c1c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.transfer-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 13px;
+  width: 182px;
+  height: 65px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  width: 129px;
+  height: 65px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.username-wrapper {
+  width: 100%;
+  height: 21px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #383838;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+}
+.description-wrapper {
+  width: 100%;
+  height: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #555555;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.time-wrapper {
+  width: 47px;
+  height: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #919191;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
