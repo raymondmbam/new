@@ -12,8 +12,7 @@ import AssistantLogo from "../Components/voice/assistantLogo";
 export const TransferHistory = () => {
   return (
     <div className="transfer-history">
-      <AssistantLogo />
-      <div className="transfer-summary">
+      <div className="transf-summary">
         <div className="transfer-page-header">Transfers</div>
         <div className="amount-time-wrapper">
           <div className="total-transfer">-$600.00</div>

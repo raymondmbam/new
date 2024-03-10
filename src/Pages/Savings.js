@@ -10,43 +10,52 @@ import createCardIcon from "../Assets/createCardsIcon.svg";
 export const Savings = () => {
   return (
     <div className="savings-account">
+    
       <div className="savings-card">
-        <div className="overlap-group">
-          <img
-            className="design-vector"
-            alt="Design vector"
-            src={vectorDesign}
-          />
-          <div className="account-type">Savings</div>
-          <div className="balance">$15,400.86</div>
-          <div className="text-wrapper">Balance</div>
+
+        <div className="acct-group">
+          <div className="act-ty">
+            <p>Savings</p>
+          </div>
+
+          <div className="card-bt">
+            <p className="bal-txt">Balance</p>
+            <p className="bal-ce">$15,400.86</p>
+          </div>
+          
         </div>
+
       </div>
+
+
       <div className="account-details">
-        <div className="acc-details-header">
-          <div className="text-wrapper">Account details</div>
-          <button className="copy-button">
-            <img className="copy-icon" alt="Copy Icon" src={copyIcon} />
-            <div className="text-wrapper-2">Copy details</div>
-          </button>
+
+        <div className="details-header">
+            <div className="det-txt">
+              <h4>Account details</h4>
+            </div>
+            <button className="copy-button">
+              <img className="copy-icon" alt="Copy Icon" src={copyIcon} />
+              <p className="cpy-txt">Copy details</p>
+            </button>
         </div>
+
         <div className="group">
           <div className="div-3">
             <div className="div-4">
               <div className="text-wrapper-3">Name</div>
-              <div className="text-wrapper-4">Josephine Isabella</div>
-              <div className="text">{""}</div>
+              <div className="text-bold">Josephine Isabella</div>
             </div>
-            <div className="div-5">
+            <div className="div-4">
               <div className="text-wrapper-3">Account number</div>
-              <div className="text-wrapper-4">0123456789</div>
+              <div className="text-bold">0123456789</div>
               <div className="text-2">{""}</div>
             </div>
-            <div className="div-5">
+            <div className="div-4">
               <div className="text-wrapper-3">Routing number</div>
-              <div className="text-wrapper-4">9876543210</div>
+              <div className="text-bold">9876543210</div>
             </div>
-            <div className="div-6">
+            <div className="div-4">
               <div className="text-wrapper-3">Bank name and address</div>
               <p className="p">Finch Bank, Broadmoor Drive, Broadmoor Seatle</p>
             </div>
@@ -54,20 +63,22 @@ export const Savings = () => {
         </div>
       </div>
       <div className="connected-cards">
-        <div className="acc-details-header">
-          <div className="text-wrapper">Connected cards</div>
+        <div className="details-header">
+          <div className="det-txt">
+            <h4>Connected cards</h4>
+          </div>
           <button className="copy-button">
             <img className="copy-icon" alt="Copy Icon" src={createCardIcon} />
-            <div className="text-wrapper-2">Create card</div>
+            <div className="cpy-txt">Create card</div>
           </button>
         </div>
 
         <div className="card-div">
-          <div className="card-one">
+          <div className="card-one ">
             <img className="logo" alt="Card One" src={card1} />
           </div>
           <div className="card-two">
-            <img className="img" alt="Card Two" src={card2} />
+            <img className="logo" alt="Card Two" src={card2} />
           </div>
           <div className="card-three">
             <img className="logo-2" alt="Card Three" src={card3} />

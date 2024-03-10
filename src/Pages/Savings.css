@@ -1,311 +1,100 @@
+.savings-account{
+  height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  margin: 10px 10px;
+
+}
+
 .savings-card {
-  background-color: #202020;
-  border: 1px solid;
-  border-color: #ffffff;
-  border-radius: 18px;
-  height: 160px;
-  overflow: hidden;
-  width: 358px;
-}
-
-.savings-card .overlap-group {
-  background-size: 100% 100%;
-  height: 160px;
+  background-image: url(../Assets/vectordesign.svg);
+  background-size: cover;
+  height: 180px;
+  width: auto;
   position: relative;
-}
-
-.savings-card .account-type {
-  color: #ffffff;
   font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  left: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 15px;
+  padding:10px 20px;
 }
 
-.savings-card .balance {
-  color: #ffffff;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 34px;
-  font-weight: 500;
-  left: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 92px;
-}
-
-.savings-card .text-wrapper {
-  color: #909090;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  left: 14px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 70px;
-}
-
-.savings-card .button {
-  all: unset;
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 46px;
-  box-sizing: border-box;
-  display: inline-flex;
-  gap: 10px;
-  justify-content: center;
-  left: 260px;
-  padding: 10px;
-  position: absolute;
-  top: 95px;
-}
-
-.savings-card .button-text-wrapper {
-  all: unset;
-  box-sizing: border-box;
-  color: #272727;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-/* New component styles */
-.account-details {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 16px;
-  position: relative;
-}
-
-.account-details .acc-details-header {
-  align-items: center;
-  align-self: stretch;
+.acct-group{
   display: flex;
-  flex: 0 0 auto;
+  flex-direction: column;
   justify-content: space-between;
-  position: relative;
-  width: 100%;
+  height: 100%;
 }
 
-.account-details .text-wrapper {
-  color: #3f3f3f;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 24px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
+.act-ty{
+  color: white;
 }
 
-.account-details .copy-button {
+.card-bt{
+ margin: 10px 0px;
+}
+
+.bal-txt{
+  color: #919191;
+  margin: 10px 0px;
+}
+
+.bal-ce{
+  color: white;
+  font-size: 42px;
+  margin: 0px;
+}
+
+
+.account-details{
+  margin: 20px 0px;
+  padding: 0px 10px;
+}
+
+.details-header{
+  display: flex;
   align-items: center;
-  background-color: #272727;
-  border-radius: 46px;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 4px;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
-}
-
-.account-details .fluent-copy {
-  height: 15px;
-  position: relative;
-  width: 15px;
-}
-
-.account-details .text-wrapper-2 {
-  color: #ffffff;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-.account-details .group {
-  -webkit-backdrop-filter: blur(99.6px) brightness(100%);
-  backdrop-filter: blur(99.6px) brightness(100%);
-  background-color: #ffffffc4;
-  border-radius: 10px;
-  height: 300px;
-  position: relative;
-  width: 358px;
-}
-
-.account-details .div-3 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  left: 14px;
-  position: relative;
-  top: 13px;
-  width: 330px;
-}
-
-.account-details .div-4 {
-  align-items: flex-start;
-  display: flex;
-  flex: 0 0 auto;
-  flex-wrap: wrap;
-  gap: 1px 1px;
-  position: relative;
-  width: 143px;
-}
-
-.account-details .text-wrapper-3 {
-  color: #575757;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.account-details .text-wrapper-4 {
-  color: #2b2b2b;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 24px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.account-details .text {
-  color: #000000;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  width: fit-content;
-}
-
-.account-details .div-5 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 1px;
-  position: relative;
-}
-
-.account-details .text-2 {
-  color: #000000;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  left: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 3px;
-}
-
-.account-details .div-6 {
-  align-items: flex-start;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 1px;
-  position: relative;
-  width: 330px;
-}
-
-.account-details .p {
-  color: #2b2b2b;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-right: -28px;
-  position: relative;
-  width: 358px;
-}
-.card-div {
-  align-items: flex-start;
-  display: inline-flex;
-  gap: 6px;
-  position: relative;
-}
-
-.connected-cards {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 16px;
-  position: relative;
-}
-
-.connected-cards .acc-details-header {
-  align-items: center;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
   justify-content: space-between;
-  position: relative;
-  width: 100%;
 }
 
-.connected-cards .text-wrapper {
-  color: #3f3f3f;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 24px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.connected-cards .text-wrapper-2 {
-  color: #ffffff;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-.connected-cards .copy-button {
+.copy-button{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: none;
   background-color: #272727;
-  border-radius: 46px;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 4px;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
 }
+.copy-button img{
+  margin-right:5px;
+}
+
+.cpy-txt{
+  margin: 0px;
+  color: white;
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+
+}
+.div-4{
+  margin: 10px 0px;
+}
+.text-bold, .p{
+  font-weight: 500;
+  color: #2C2C2C;
+  font-size: 18px;
+}
+
+.connected-cards{
+  padding:10px;
+}
+.card-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  overflow-x: scroll;
+
+}
+
+.card-one, .card-two, .card-three{
+  margin: 0px 10px;
+}
+

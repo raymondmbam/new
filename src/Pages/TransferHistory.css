@@ -2,9 +2,9 @@
   position: relative;
   width: 100%;
   background: #fcfcfc;
-  backdrop-filter: blur(31.35px);
   justify-content: center;
   align-items: center;
+  padding: 100px 20px;
 }
 
 .transfer-summary {

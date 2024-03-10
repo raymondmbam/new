@@ -12,9 +12,8 @@ import "./GroceryHistory.css";
 
 export const GroceryHistory = () => {
   return (
-    <div className="transfer-history">
-      <AssistantLogo />
-      <div className="transfer-summary">
+    <div className="grocery-history">
+      <div className="transf-summary">
         <div className="transfer-page-header">Groceries</div>
         <div className="amount-time-wrapper">
           <div className="total-transfer">-$400.00</div>

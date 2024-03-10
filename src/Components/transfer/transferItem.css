@@ -6,11 +6,10 @@
   padding: 0px;
   gap: 10px;
   position: relative;
-  top: 237px;
+  top: 50px;
   margin-bottom: 20px;
-  width: 100 %; /* Fill the screen from left to right */
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 100%; /* Fill the screen from left to right */
+
 }
 .transfer-header {
   display: flex;
