@@ -1,4 +1,4 @@
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   * {
     margin: 0px;
     padding: 0px;
@@ -8,7 +8,7 @@
   .App {
     /* text-align: center; */
     font-family: 'DM Sans', sans-serif;
-    margin: 0px auto; /* Center the content horizontally */
+    margin: 0px 0px; /* Center the content horizontally */
     max-width: none; /* Ensure the content spans not more than 500px */
   }
 
